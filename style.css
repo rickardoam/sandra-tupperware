@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #2b2f4a, #0f111a);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  overflow-y: auto;
+}
+
+
+  li{
+    margin-bottom: 10px;
+  }
+  #btntel{
+    margin-top: 10px;
+  }
+  /* Contenedor de la imagen */
+figure {
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Imagen */
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(2.2);
+  object-position: top 0px right -30px;
+}
+  
+  .app {
+    width: 340px;
+    min-height: 420px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    opacity: 0.9;
+    margin-bottom: 30px;
+  }
+  
+  .link {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #5f8cff, #7a5cff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(95, 140, 255, 0.4);
+  }
+  
+  .back {
+    margin-top: 30px;
+    display: inline-block;
+    color: #9aa4ff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  #tienda {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  /***productos****/
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 12px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  }
+  
+  .card img {
+    /*max-height:min-content;*/  
+    width:80%;
+    border-radius: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card h4 {
+    font-size: 0.95rem;
+    margin: 6px 0;
+  }
+  
+  .price {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .buy {
+    display: block;
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  
+  
