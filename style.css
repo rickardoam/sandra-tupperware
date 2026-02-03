@@ -26,7 +26,8 @@ figure {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
+  /*margin-bottom: 10px;*/
 }
 
 /* Imagen */
