@@ -51,6 +51,10 @@ figure img {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   }
   
+  .app #bienvenida {
+    height: 100vh;
+  }
+
   h1 {
     margin: 0;
     font-size: 28px;
