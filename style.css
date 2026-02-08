@@ -109,10 +109,10 @@ figure img {
     font-size: 14px;
   }
 
-  #tienda {
+  /*#tienda {
     margin-top: 0;
     margin-bottom: 10px;
-  }
+  }*/
   /***productos****/
   .products {
     display: grid;
